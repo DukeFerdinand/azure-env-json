@@ -23,12 +23,12 @@ lines = [line for line in lines if not line.startswith("#") and line != "\n"]
 lines = [line.strip() for line in lines]
 
 # Split all lines by =
-lines = [line.split("=") for line in lines]
+lines = [line.split("=", maxsplit=1) for line in lines]
 
 final = []
 for line in lines:
     key = line[0].strip()
-    value = line[1].strip()
+    value = line[1].strip().replace('"', "")
     final.append({
         "key": key,
         "value": value,
