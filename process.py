@@ -30,7 +30,7 @@ for line in lines:
     key = line[0].strip()
     value = line[1].strip().replace('"', "")
     final.append({
-        "key": key,
+        "name": key,
         "value": value,
         "slotSetting": False
     })
