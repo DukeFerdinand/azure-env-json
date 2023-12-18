@@ -26,20 +26,20 @@ The script outputs a JSON array containing objects for each key-value pair found
 
 ### Example Output
 
-This output is ready to be coppied into your app's advanced configuration
+This output is ready to be copied into your app's advanced configuration
 
 ```json
 [
-    {
-        "key": "API_HOST",
-        "value": "https://api.yourcompany.com",
-        "slotSetting": false
-    },
-    {
-        "key": "SOME_IMPORTANT_KEY",
-        "value": "sdfaosdfasdfjaklsdfj2109348uijwsda9083==",
-        "slotSetting": false
-    }
+  {
+    "name": "API_HOST",
+    "value": "https://api.yourcompany.com",
+    "slotSetting": false
+  },
+  {
+    "name": "SOME_IMPORTANT_KEY",
+    "value": "sdfaosdfasdfjaklsdfj2109348uijwsda9083==",
+    "slotSetting": false
+  }
 ]
 ```
 
