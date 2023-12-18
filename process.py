@@ -36,5 +36,5 @@ for line in lines:
     })
 
 
-print(json.dumps(final, indent=5))
+print(json.dumps(final, indent=2))
 
